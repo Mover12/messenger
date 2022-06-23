@@ -1,0 +1,92 @@
+div {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    color:#393939;
+}
+
+.messenger {
+    height: 80vh;
+}
+.messages {
+    overflow-y: scroll;
+    min-width: 520px;
+    height: 100%;
+}
+.messages::-webkit-scrollbar {
+    border: none;
+}
+.message {
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    width: 500px;
+    min-height: 70px;
+    margin-top: 5px;
+}
+.photo {
+    user-select: none;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+}
+.name {
+    color: #757575;
+    margin-left: 80px;
+    margin-top: -70px;
+    font-size: 16px;
+}
+.messageText {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.send {
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+}
+.messageInput {
+    position: relative;
+    border: none;
+    user-select: none;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0);
+    width: 435px;
+    min-height: 50px;
+    font-size: 20px;
+    bottom: 6.5px;
+    left: 8px;
+}
+.messageInput::-webkit-input-placeholder { 
+    color: #AAAAAA;
+}
+.sendButton {
+    outline: 0;
+    border: none;
+    user-select: none;
+    background-color:rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+.buttonSignOut {
+    outline: 0;
+    margin-top: 80px;
+    user-select: none;
+    border: none;
+    border-radius: 15px;
+    color:#AAAAAA;
+    background-color: #EAEAEA;
+}
+
+.buttonSignIn {
+    outline: 0;
+    user-select: none;
+    border: none;
+    border-radius: 5px;
+    color:#393939;
+    background-color: #EAEAEA;
+    font-size: 25px;
+}
