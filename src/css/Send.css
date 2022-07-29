@@ -1,0 +1,30 @@
+.send {
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    height: 50px;
+}
+.messageInput {
+    position: relative;
+    border: none;
+    user-select: none;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    bottom: 8px;
+    left: 10px;
+}
+.messageInput::-webkit-input-placeholder { 
+    color: #AAAAAA;
+}
+.sendButton {
+    outline: 0;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 50px;
+}

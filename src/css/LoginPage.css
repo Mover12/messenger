@@ -1,0 +1,14 @@
+.header {
+    color:#393939;
+}
+
+.buttonSignIn {
+    outline: 0;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 5px;
+    color:#393939;
+    background-color: #EAEAEA;
+    font-size: 25px;
+}

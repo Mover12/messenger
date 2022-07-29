@@ -9,7 +9,7 @@ export default function LoginPage() {
 
   return (
     <div>
-      <h1>Hello! Let's log in!</h1>
+      <h1 className="header">Hello! Let's log in!</h1>
       <button className="buttonSignIn" onClick={SignIn}>Google Log In</button>
     </div>
   )

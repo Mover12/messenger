@@ -1,0 +1,26 @@
+.messages {
+    overflow-y: scroll;
+    max-height: calc(100vh - 80px);
+}
+.message {
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    min-height: 70px;
+    margin-top: 5px;
+}
+.photo {
+    user-select: none;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+}
+.name {
+    color: #757575;
+    margin-left: 80px;
+    margin-top: -70px;
+    font-size: 16px;
+}
+.messageText {
+    margin-left: 80px;
+    font-size: 20px;
+}

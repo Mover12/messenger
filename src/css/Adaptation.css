@@ -1,0 +1,29 @@
+@media (max-width: 1440px){
+    .messenger {
+        width: 550px;
+        margin: 0px auto;
+    }
+    .send {
+        width: 550px;
+    }
+    .message {
+        width: 550px;
+    }
+    .messageInput {
+        width: 500px;
+    }
+}
+@media (max-width: 768px){
+    .messenger {
+        width: 100vw;
+    }
+    .send {
+        width: 100vw;
+    }
+    .message {
+        width: 100vw;
+    }
+    .messageInput {
+        width: calc(100vw - 50px);
+    }
+}

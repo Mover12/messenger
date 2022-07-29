@@ -3,7 +3,11 @@ import { Route, Routes, useNavigate } from "react-router";
 import LoginPage from "./components/LoginPage";
 import HomePage from "./components/HomePage";
 import './css/App.css';
-import { auth} from "./firebase-config";
+import './css/Adaptation.css';
+import './css/LoginPage.css';
+import './css/Messages.css';
+import './css/Send.css';
+import { auth } from "./firebase-config";
 
 function App() {
   const navigation = useNavigate();
